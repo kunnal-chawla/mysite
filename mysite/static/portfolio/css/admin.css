@@ -1,0 +1,81 @@
+
+#header{
+    height: 50px;
+    background: #040b14;
+    color: #f5dd5d;
+}
+
+#branding h1{
+    color: #f5dd5d;
+}
+
+/* BREADCRUMBS */
+div.breadcrumbs {
+    background: #0e294a;
+    color: #fff;
+
+}
+div.breadcrumbs a {
+    color: #f5dd5d;
+}
+/* LINKS */
+a:link, a:visited {
+    color: #040b14;
+    }
+
+a:focus, a:hover {
+    color: #f5dd5d;
+}
+
+.module h2, .module caption, .inline-group h2 {
+    background: #040b14;
+    color: #f5dd5d;
+}
+
+.object-tools a:link, .object-tools a:visited {
+    background: #040b14;
+    color: #f5dd5d;
+}
+
+.button, input[type=submit], input[type=button], .submit-row input, a.button {
+    background: #040b14;
+    color: #fff;
+}
+
+.button.default, input[type=submit].default, .submit-row input.default {
+     background: #040b14;
+     color: #ffff;
+}
+
+.button.default:active, input[type=submit].default:active,
+.button.default:focus, input[type=submit].default:focus,
+.button.default:hover, input[type=submit].default:hover {
+    background: #0e294a;
+    color: #f5dd5d;
+}
+
+.button:active, input[type=submit]:active, input[type=button]:active,
+.button:focus, input[type=submit]:focus, input[type=button]:focus,
+.button:hover, input[type=submit]:hover, input[type=button]:hover {
+    background: #0e294a;
+    color: #f5dd5d;
+}
+
+div.breadcrumbs a:focus, div.breadcrumbs a:hover {
+    color: #fff;
+}
+
+#user-tools a:focus, #user-tools a:hover {
+    color: #f5dd5d;
+    border-bottom-color: #f5dd5d;
+}
+
+input[type=text]:focus, input[type=password]:focus, input[type=email]:focus,
+input[type=url]:focus, input[type=number]:focus, input[type=tel]:focus,
+textarea:focus, select:focus, .vTextField:focus {
+    border-color: #f5dd5d;
+}
+
+a.section:link, a.section:visited {
+    color: #f5dd5d;
+}

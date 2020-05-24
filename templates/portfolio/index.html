@@ -1,0 +1,54 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+  <!-- ======= Mobile nav toggle button ======= -->
+  <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
+
+  <!-- ======= Header ======= -->
+    {% include 'partials/_head.html' %}
+  <!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+    {% include 'partials/_hero.html' %}
+  <!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+      {% include 'partials/_about.html' %}
+    <!-- End About Section -->
+
+    <!-- ======= Facts Section ======= -->
+<!--      {% include 'partials/_facts.html' %}-->
+    <!-- End Facts Section -->
+
+    <!-- ======= Skills Section ======= -->
+      {% include 'partials/_skills.html' %}
+    <!-- End Skills Section -->
+
+    <!-- ======= Resume Section ======= -->
+      {% include 'partials/_resume.html' %}
+    <!-- End Resume Section -->
+
+    <!-- ======= Portfolio Section ======= -->
+      {% include 'partials/_portfolio.html' %}
+    <!-- End Portfolio Section -->
+
+    <!-- ======= Services Section ======= -->
+      {% include 'partials/_services.html' %}
+    <!-- End Services Section -->
+
+    <!-- ======= Testimonials Section ======= -->
+      {% include 'partials/_testimonials.html' %}
+    <!-- End Testimonials Section -->
+
+    <!-- ======= Contact Section ======= -->
+      {% include 'partials/_contact.html' %}
+    <!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+    {% include 'partials/_footer.html' %}
+  <!-- End  Footer -->
+{% endblock %}
